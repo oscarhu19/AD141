@@ -11,10 +11,11 @@ div2_result = a // b // c
 div3_result = a // (b / c)
 
 # Print results
-print("value of a: ", a, "value of b: ", b, "value of c: ", c)
+print("value of a: ", a, "value of b: ", b, "value of c: ", c, sep=":-")
 print("Sum: ", sum_result)
 print("Difference: ", diff_result)
 print("Product: ", prod_result)
 print("Division: ", div_result)
 print("Integer Division1: ", div2_result)
 print("Integer Division2: ", div3_result)
+
